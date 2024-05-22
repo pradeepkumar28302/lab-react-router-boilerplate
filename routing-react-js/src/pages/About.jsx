@@ -1,7 +1,13 @@
 import React from "react";
-function About(){
-    return(
-        <div>About</div>
-    )
+import NavigationBar from "../component/NavigationBar";
+
+function About() {
+  return (
+    <div style={{ textAlign: "center" }}>
+      <NavigationBar /> 
+      <h1>About</h1>
+    </div>
+  );
 }
+
 export default About;
